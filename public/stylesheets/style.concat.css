@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5; }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem; }
+
+@font-face {
+  font-family: "grotesque-reg";
+  src: url("../../fonts/DarkerGrotesque-Regular.ttf"); }
+
+@font-face {
+  font-family: "grotesque-bld";
+  src: url("../../fonts/DarkerGrotesque-Semibold.ttf"); }
+
+body {
+  font-family: grotesque-reg;
+  line-height: 1.2;
+  color: "black"; }

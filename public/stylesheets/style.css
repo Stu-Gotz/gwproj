@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem; }
+
+body {
+  font-family: "Road Rage", sans-serif;
+  letter-spacing: .3rem;
+  line-height: 1.2; }
+
+#header {
+  font-size: 3rem;
+  border-bottom: 1px solid black;
+  margin-bottom: .7rem; }

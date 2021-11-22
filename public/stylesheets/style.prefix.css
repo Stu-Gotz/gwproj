@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5; }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem; }
+
+@font-face {
+  font-family: "grotesque-reg";
+  src: url("../../fonts/DarkerGrotesque-Regular.ttf"); }
+
+@font-face {
+  font-family: "grotesque-bld";
+  src: url("../../fonts/DarkerGrotesque-Semibold.ttf"); }
+
+body {
+  font-family: grotesque-reg;
+  line-height: 1.2;
+  color: "black"; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNvbmNhdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7OztFQUdFLFNBQVM7RUFDVCxVQUFVO0VBQ1YsbUJBQW1CLEVBQUU7O0FBRXZCO0VBQ0UsZUFBZSxFQUFFOztBQUVuQjtFQUNFLHNCQUFzQjtFQUN0QixhQUFhLEVBQUU7O0FBRWpCO0VBQ0UsNEJBQTRCO0VBQzVCLG1EQUFtRCxFQUFFOztBQUV2RDtFQUNFLDRCQUE0QjtFQUM1QixvREFBb0QsRUFBRTs7QUFFeEQ7RUFDRSwwQkFBMEI7RUFDMUIsZ0JBQWdCO0VBQ2hCLGNBQWMsRUFBRSIsImZpbGUiOiJzdHlsZS5wcmVmaXguY3NzIiwic291cmNlc0NvbnRlbnQiOlsiKixcbio6OmFmdGVyLFxuKjo6YmVmb3JlIHtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xuICBib3gtc2l6aW5nOiBpbmhlcml0OyB9XG5cbmh0bWwge1xuICBmb250LXNpemU6IDYyLjU7IH1cblxuYm9keSB7XG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIHBhZGRpbmc6IDNyZW07IH1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBcImdyb3Rlc3F1ZS1yZWdcIjtcbiAgc3JjOiB1cmwoXCIuLi8uLi9mb250cy9EYXJrZXJHcm90ZXNxdWUtUmVndWxhci50dGZcIik7IH1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBcImdyb3Rlc3F1ZS1ibGRcIjtcbiAgc3JjOiB1cmwoXCIuLi8uLi9mb250cy9EYXJrZXJHcm90ZXNxdWUtU2VtaWJvbGQudHRmXCIpOyB9XG5cbmJvZHkge1xuICBmb250LWZhbWlseTogZ3JvdGVzcXVlLXJlZztcbiAgbGluZS1oZWlnaHQ6IDEuMjtcbiAgY29sb3I6IFwiYmxhY2tcIjsgfVxuIl19 */
