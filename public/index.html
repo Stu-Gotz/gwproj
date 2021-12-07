@@ -10,15 +10,26 @@
 </head>
 
 <body>
-  <script>0</script>
   <h2 id="header">Daily GW2 Task Tracker</h2>
-  <form action="" method="get" class="form">
-    <label for="form-input">Paste Key Here: </label>
-    <input type="text" name="Key Input" id="form-input">
-    <button id="form-button" type="button" onclick="GWAPIUser()">Click Here!</button>
-
-    <script src="./javascripts/main.js"></script>
-  </form>
+  <div class="main">
+    <!-- This is the form where the users select all their options & paste the keys -->
+    <form action="" method="get" class="form">
+      <label for="form-input">Paste Key Here: </label>
+      <input type="text" name="Key Input" id="form-input">
+      <button id="form-button" type="button">Go!</button>
+      <label for="endpoints">Select One: </label>
+      <select name="endpoints" id="dropdown">
+        <option value="default" selected>Please Choose an Option</option>
+        <option value="dailies">Daily Task</option>
+        <option value="daily crafting">Daily Crafting</option>
+      </select>
+      <script type="module" src="./javascripts/main.js"></script>
+    </form>
+    <div class="display">
+      <!-- This is where all the populated fields will live. -->
+    </div>
+  </div>
+  
     
   
 </body>
